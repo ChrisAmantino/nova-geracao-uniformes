@@ -1,0 +1,34 @@
+.bg-nav:hover {
+    background-color: #DAA520;
+}
+
+.bg-jom {
+  background-color: #DAA520
+}
+
+.body {
+    background-color: #e9e9e9;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+  
+img {
+    max-width: 100%;
+  }
+
+.margem {
+  margin-top: 3cm;
+}
+
+.bg-card {
+    background-color: #DAA520; /* For browsers that do not support gradients */
+    background-image: linear-gradient(180deg, #DAA520, grey);
+}
+
+.bg-invertido {
+  background-color: grey; /* For browsers that do not support gradients */
+    background-image: linear-gradient(180deg, grey, #DAA520);
+}
