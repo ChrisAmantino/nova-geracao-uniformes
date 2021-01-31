@@ -32,3 +32,11 @@ img {
   background-color: grey; /* For browsers that do not support gradients */
     background-image: linear-gradient(180deg, grey, #DAA520);
 }
+
+.bg-titulo:hover {
+   background-color: #CCFF33;
+}
+
+.bg-titulo-2:hover {
+  background-color: #FF8400;
+}
